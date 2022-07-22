@@ -1,0 +1,9 @@
+#let us calculate simple intrest
+p=int(input('Please enter principle amount \n  '))
+r=int(float(input('please enter rate of intrest \n')))
+n=int(input('Please enter no. of years \n '))
+intrest=int((p*r*n)/100)
+
+total=int(p+intrest)
+
+print(f'total intrest is {intrest} and total amount to be paid is {total}' )
